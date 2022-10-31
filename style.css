@@ -12,6 +12,19 @@ body{
     background-color: white;
     color: black;
 }
+body::-webkit-scrollbar{
+    background-color: rgb(204, 204, 204);
+    width: 10px;
+}
+/* body::-webkit-scrollbar-button{
+    background-color: thistle;
+} */
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(167, 167, 167);
+}
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(167, 119, 167);
+}
 
 header{
     position: fixed;
@@ -77,6 +90,14 @@ button:hover{
     background-position-x:center;
     width: 100%;
     height: 600px;
+}
+#potato{
+    position: relative;
+    top: -8rem;
+    margin-left: 45rem;
+    color: white;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
 }
 
 .conteudo{
